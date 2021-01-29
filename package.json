@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "craco start",
     "dev:cra": "react-scripts start",
-    "build": "craco build",
+    "build": "CI=false craco build",
     "build:cra": "react-scripts build",
     "test": "craco test",
     "test:cra": "react-scripts test",
@@ -40,7 +40,6 @@
     "@types/classnames": "^2.2.11",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.22",
-    "@types/peerjs": "^1.1.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "autoprefixer": "^9",
